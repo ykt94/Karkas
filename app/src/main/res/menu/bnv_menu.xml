@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_subscribe"
+        android:title="@string/tab_subscribe_title" />
+
+    <item
+        android:id="@+id/nav_map"
+        android:title="@string/tab_map_title" />
+
+    <item
+        android:id="@+id/nav_lenta"
+        android:title="@string/tab_lenta_title" />
+</menu>

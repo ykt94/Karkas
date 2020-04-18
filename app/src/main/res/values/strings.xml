@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Karkas</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_spot">title_activity_spot</string>
+    <string name="title_activity_main">title_activity_main</string>
+
+    <!-- spot toolbar menu -->
+    <string name="action_settings">Настройки</string>
+
+    <!-- main toolbar menu -->
+    <string name="action_spot">Action</string>
+
+    <!-- bottomnavigationview in main_activity -->>
+    <string name="tab_subscribe_title">Подписки</string>
+    <string name="tab_map_title">Карта</string>
+    <string name="tab_lenta_title">Лента</string>
 </resources>
