@@ -16,4 +16,9 @@
     <string name="tab_subscribe_title">Подписки</string>
     <string name="tab_map_title">Карта</string>
     <string name="tab_lenta_title">Лента</string>
+    <!-- temporary words -->>
+    <string name="stub_hello_subscribe">Hello subscribe</string>
+    <string name="stub_hello_map">Hello map</string>
+    <string name="stub_hello_lenta">Hello lenta</string>
+
 </resources>

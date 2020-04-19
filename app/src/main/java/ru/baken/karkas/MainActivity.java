@@ -13,10 +13,8 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-import ru.baken.karkas.auth.User;
 
 public class MainActivity extends AppCompatActivity {
-    private User user;
     BottomNavigationView bottomNavigationView;
 
     @Override
@@ -26,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.main_toolbar);
         setSupportActionBar(toolbar);
         // определяем пользователя
-        user = User.getUser(this);
 
         bottomNavigationView = findViewById(R.id.bottom_nav_view);
         NavController navController = Navigation.findNavController(this, R.id.mainNavHost);
@@ -37,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_spot:
-                // User chose the "Settings" item, show the app settings UI...
                 Intent intent = new Intent(this, SpotActivity.class);
                 startActivity(intent);
                 return true;
